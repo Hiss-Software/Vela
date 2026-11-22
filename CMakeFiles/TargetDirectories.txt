@@ -1,0 +1,8 @@
+C:/Users/toxic/Desktop/Vela/CMakeFiles/vela.dir
+C:/Users/toxic/Desktop/Vela/CMakeFiles/test.dir
+C:/Users/toxic/Desktop/Vela/CMakeFiles/edit_cache.dir
+C:/Users/toxic/Desktop/Vela/CMakeFiles/rebuild_cache.dir
+C:/Users/toxic/Desktop/Vela/CMakeFiles/list_install_components.dir
+C:/Users/toxic/Desktop/Vela/CMakeFiles/install.dir
+C:/Users/toxic/Desktop/Vela/CMakeFiles/install/local.dir
+C:/Users/toxic/Desktop/Vela/CMakeFiles/install/strip.dir

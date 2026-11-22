@@ -23,9 +23,9 @@ a.out
 .DS_Store
 Thumbs.db
 
-.ninja_log
-.ninja_deps
-.ninja_log
-.ninja
-
-.cmake
+# CMake artifacts in the project root (in-source builds)
+CMakeCache.txt
+CMakeFiles/
+build.ninja
+CTestTestfile.cmake
+cmake_install.cmake

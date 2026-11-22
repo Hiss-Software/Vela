@@ -29,3 +29,7 @@ CMakeFiles/
 build.ninja
 CTestTestfile.cmake
 cmake_install.cmake
+
+# Ninja build artifacts
+.ninja_deps
+.ninja_log

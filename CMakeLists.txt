@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.24)
 project(Vela VERSION 0.2.0 LANGUAGES CXX)
 
-# Vela собирается на C++23. На MSYS2 UCRT64 это просто работает:
+# Vela is built on C++23. On MSYS2 UCRT64 it just works:
 #   pacman -S mingw-w64-ucrt-x86_64-gcc mingw-w64-ucrt-x86_64-cmake
 #   cmake -S . -B build -G Ninja && cmake --build build
 
@@ -29,8 +29,8 @@ endif()
 
 install(TARGETS vela RUNTIME DESTINATION bin)
 
-# Строгие смоук-тесты: рабочая программа обязана проходить проверку,
-# сломанная — обязана падать. Иначе это не тесты, а украшение.
+# Strict smoke tests: a working program must pass the check,
+# a broken one must fail. Otherwise these are not tests but decoration.
 enable_testing()
 add_test(NAME fib
          COMMAND vela check ${CMAKE_CURRENT_SOURCE_DIR}/tests/fib.vela)
